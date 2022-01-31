@@ -1,0 +1,203 @@
+body{
+    background-color: #fafafa;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#story{
+    background-color: #fff;
+    margin: auto;
+    border: 1px solid #dbdbdb;
+    height: 110px;
+    border: 5px;
+    overflow: hidden;
+    position: relative;
+
+    
+}
+.story{
+    border-radius: 50%;
+}
+.story_container ul{
+    list-style-type: none;
+    display: flex;
+    overflow-y: auto;
+    padding: 20px;
+}
+.story_container ul li{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.story_container ul li .story{
+    padding: 2px ;
+    background: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.text-dark{
+    text-decoration: none;
+}
+
+.sidenav-item:hover{
+  background-color: rgb(225, 216, 216);
+  height: 80%;
+  border: 35px;
+
+}
+
+
+.Sugesstion_side_bar_container{
+  margin: 2%;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 23px; */
+}
+.Sugesstion_side_bar_content{
+  position: absolute;
+  /* right: 20px;   */
+  width: 260px;
+  text-align: right;
+  transition-property: 0.800s ease;
+  background-color: rgb(255, 255, 255);
+}
+.Sugesstion_header {
+  display: flex;
+  justify-content: space-between;
+}
+.Sugesstion_head{
+  padding: 2.5%;
+  color: rgb(70, 69, 69);
+}
+.Sugesstion_free_txt_sidebar{
+  background-color: rgba(0,0,0,.25);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 5px 6px; 
+  position: absolute;
+  left: 7px;
+  color: #fefefe;
+  z-index: 1;
+  margin-top: 2%;
+
+}
+.Sugesstion_label_dots{
+  background: none;
+  font-weight: 200;
+  font-size: 12px;
+  position: absolute;
+  right: 7px;
+  color: #fefefe;
+  border: none;
+  margin-top: 2%;
+}
+.Sugesstion_background_photo_bg{
+  border-radius: 6px;
+  height: 110px;
+  width:100%;
+  display: inline-block;
+  background-image: url("/imagess/Images/mai.jpeg")!important;
+  background-repeat: no-repeat;
+  position: relative;
+  
+  margin-bottom: 12px;
+  margin-left: 16px;
+}
+.button > svg{
+  fill: grey;
+}
+.button > path{
+  fill: none;
+}
+.Sugesstion_background_photo_half_colour {
+  height: 3.8rem;
+  top: 44.5%;
+  width: 86.5%;
+  position: absolute;;
+  background-color: rgba(0,0,0,.75);
+}
+.Sugesstion_profile_pic{
+  position: absolute;
+  z-index: 1;
+  content: url(http://github.com/satyam-shukla.png);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  margin: 1.4%;
+  margin-top: 6%;
+}
+
+.Sugesstion_User_Frist_name{
+  display: flex;
+  justify-content: right;
+  padding-right: 5%;
+  text-decoration: none;
+  color: white;
+  padding-top: 3%;
+}
+.Sugesstion_user_name{
+  text-decoration: none;
+  color: white;
+}
+.Sugesstion_id_name{
+  text-align: right;
+  padding-right: 11%;
+  text-decoration: none;
+  color: white;
+}
+
+
+.loader{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(45deg,transparent ,transparent 40%,#e5f403);
+  animation: animate 2s linear infinite;
+}
+.loader::before{
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background-image: url(/imagess/Images/aaa.jpeg);
+  border-radius: 50%;
+  z-index: 1000;
+}
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+.loader:after{
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgb(223, 51, 51);
+  background: linear-gradient(45deg,transparent,transparent 40%,#ffc300);
+  border-radius: 50%;
+  z-index: 1000;
+  z-index: 1;
+  filter: blur(10px);
+
+}
+
+

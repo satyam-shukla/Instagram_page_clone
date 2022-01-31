@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="shukla.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light card">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-md-3 d-flex ">
+                            <div class="loader"></div>
+                            <div>
+                                <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+                                    <h4 class="my-2 mx-2">#007</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <form class="d-flex input-group w-auto my-2 mx-2">
+                                <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>  
+                        <div class="col-md-4 d-flex justify-content-end my-2 mx-5">
+                            <div class="d-flex justify-content-end ">
+                               
+                                <div class="dropdown my-2 ">
+                                    <a href="#"
+                                        class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                                        id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="https://github.com/satyam-shukla.png" alt="" width="27" height="27"
+                                            class="rounded-circle me-2 border">
+                                        <!-- <strong>Shukla...</strong> -->
+                                    </a>
+                                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-3 card ">
+                    <div id="full-screen-example" class="sidenav sidenav-primary ps ps--active-y"
+                        style="width: 240px;   transition: all 0.3s linear 0s; transform: translateX(0%);">
+                        <div class="mt-4">
+                            <div id="header-content" class="pl-3">
+                                <img src="https://github.com/satyam-shukla.png" alt="avatar"
+                                    class="rounded-circle img-fluid mb-3 border" style="max-width: 60px;">
+
+                                <h4>
+                                    Satyam
+                                </h4>
+                                <p>......007.com</p>
+                            </div>
+                            <hr class="mb-0">
+                        </div>
+                        <div>
+                            <ul class="sidenav-menu list-unstyled text-small ">
+                                <li class="sidenav-item my-2 rounded ">
+                                    <img src="./Images/home_black_24dp.svg" height="27" width="27" alt="">
+                                    <a class="sidenav-link ripple-surface m text-decoration-none link-dark " href="/"
+                                        tabindex="1" >
+                                        <i></i>Home</a>
+                                </li>
+                                <li class="sidenav-item my-2 rounded p-1">
+                                    <img src="/imagess/Images/240_F_108249947_UMBLfSCpTWU6AGiUz0F7a524koG3eO0z.jpg"
+                                        height="27" width="27" alt="">
+                                    <a class="sidenav-link ripple-surface mx-2 text-decoration-none link-dark " href="/"
+                                        tabindex="1">
+                                        <i></i>Notifications</a>
+                                </li>
+                                <li class="sidenav-item my-2 rounded p-1">
+                                    <img src="/imagess/Images/message.png" height="27" width="27" alt="">
+                                    <a class="sidenav-link ripple-surface mx-2 text-decoration-none link-dark " href="/"
+                                        tabindex="1">
+                                        <i></i>Messages</a>
+                                </li>
+                                <li class="sidenav-item my-2 rounded p-1">
+                                    <img src="/imagess/Images/list-text.png" height="27" width="27" alt="">
+                                    <a class="sidenav-link ripple-surface mx-2 text-decoration-none link-dark " href="/"
+                                        tabindex="1">
+                                        <i></i>Lists</a>
+                                </li>
+                                <li class="sidenav-item my-2 rounded p-1">
+                                    <img src="/imagess/Images/subscription.png" height="27" width="27" alt="">
+                                    <a class="sidenav-link ripple-surface mx-2 text-decoration-none link-dark " href="/"
+                                        tabindex="1">
+                                        <i></i>Subscriptions</a>
+                                </li>
+                                <li class="sidenav-item my-2 rounded p-1">
+                                    <img src="/imagess/Images/add.png" height="27" width="27" alt="">
+                                    <a class="sidenav-link ripple-surface mx-2 text-decoration-none link-dark " href="/"
+                                        tabindex="1">
+                                        <i></i>Add card</a>
+                                </li>
+                                <li class="sidenav-item my-2 rounded p-1">
+                                    <img src="https://github.com/satyam-shukla.png" height="27" width="27" alt="">
+                                    <a class="sidenav-link ripple-surface mx-2 text-decoration-none link-dark" href="/"
+                                        tabindex="1">
+                                        <i></i>My profile</a>
+                                </li>
+                                <li class="sidenav-item my-2  rounded p-1 ">
+                                    <img src="../imagess/Images/facebook.png" height="27" width="27" alt="" class="rounded">
+                                    <a class="sidenav-link ripple-surface mx-2 text-decoration-none link-dark " href="/"
+                                        tabindex="1">
+                                        <i></i>More</a>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                        <div class="dropdown">
+                            <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+                                id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="https://github.com/satyam-shukla.png" alt="" width="27" height="27"
+                                    class="rounded-circle me-2 border">
+                                <strong>Shukla...</strong>
+                            </a>
+                            <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                                <li><a class="dropdown-item" href="#">New project...</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sign out</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div> 
+
+                <div class="col-md-6">
+                    <section class="story_container  " id="story">
+                        <ul>
+                            <li>
+                                <div class="story">
+                                    <img src="https://github.com/satyam-shukla.png" alt="" class="rounded-circle"
+                                        height="60">
+                                </div>
+                                <span>Satyam</span>
+                            </li>
+                            <li>
+                                <div class="story">
+                                    <img src="https://github.com/shabidkhan.png" alt="" class="rounded-circle"
+                                        height="60">
+                                </div>
+                                <span>Shabid</span>
+                            </li>
+                            <li>
+                                <div class="story">
+                                    <img src="https://github.com/Riyaz19.png" alt="" class="rounded-circle"
+                                        height="60">
+                                </div>
+                                <span>Riyaz</span>
+                            </li>
+                            <li>
+                                <div class="story">
+                                    <img src="https://github.com/mkankit07.png" alt="" class="rounded-circle"
+                                        height="60">
+                                </div>
+                                <span>Ankit</span>
+                            </li>
+                            <li>
+                                <div class="story">
+                                    <img src="https://github.com/pawankumar2255.png" alt="" class="rounded-circle"
+                                        height="60">
+                                </div>
+                                <span>Pawan</span>
+                            </li>
+                            <li>
+                                <div class="story">
+                                    <img src="https://github.com/deepaksharma9dev.png" alt="" class="rounded-circle"
+                                        height="60">
+                                </div>
+                                <span>Bhalu</span>
+                            </li>
+                            <li>
+                                <div class="story">
+                                    <img src="https://github.com/roshan-malviya.png" alt="" class="rounded-circle"
+                                        height="60">
+                                </div>
+                                <span>Roshan</span>
+                            </li>
+                            <li>
+                                <div class="story">
+                                    <img src="https://github.com/skajmera.png" alt="" class="rounded-circle"
+                                        height="60">
+                                </div>
+                                <span>Ajemra</span>
+                            </li>
+                            <li>
+                                <div class="story">
+                                    <img src="https://github.com/parmeshwar4321.png" alt="" class="rounded-circle"
+                                        height="60">
+                                </div>
+                                <span>Parmaya</span>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="newsfeed my-5">
+                        <div class="post">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row d-flex ">
+                                            <div class="col-md-8">
+
+                                                <div class="d-flex story text-dark justify-content-start">
+                                                    <img src="https://github.com/satyam-shukla.png" alt=""
+                                                        class="rounded-circle" height="27" width="27">
+                                                    <span class="mx-2">satyam <i><svg xmlns="http://www.w3.org/2000/svg"
+                                                                enable-background="new 0 0 24 24" height="18px"
+                                                                viewBox="0 0 24 24" width="18px" fill="#000000">
+                                                                <g>
+                                                                    <rect fill="none" height="24" width="24" />
+                                                                </g>
+                                                                <g>
+                                                                    <g>
+                                                                        <path
+                                                                            d="M18.49,9.88l0.08-0.85l0.18-1.95l-1.9-0.43l-0.84-0.19l-0.44-0.74l-0.99-1.68L12.79,4.8L12,5.14L11.21,4.8 L9.42,4.03L8.43,5.71L7.99,6.45L7.15,6.64l-1.9,0.43l0.18,1.94l0.08,0.85l-0.56,0.65l-1.29,1.48l1.29,1.47l0.56,0.65l-0.08,0.85 l-0.18,1.96l1.9,0.43l0.84,0.19l0.44,0.74l0.99,1.67l1.78-0.77L12,18.85l0.79,0.34l1.78,0.77l0.99-1.68l0.44-0.74l0.84-0.19 l1.9-0.43l-0.18-1.95l-0.08-0.85l0.56-0.65l1.29-1.47l-1.29-1.47L18.49,9.88z M10.09,16.72l-3.8-3.81l1.48-1.48l2.32,2.33 l5.85-5.87l1.48,1.48L10.09,16.72z"
+                                                                            opacity=".3" />
+                                                                        <path
+                                                                            d="M23,11.99l-2.44-2.79l0.34-3.69l-3.61-0.82L15.4,1.5L12,2.96L8.6,1.5L6.71,4.69L3.1,5.5L3.44,9.2L1,11.99l2.44,2.79 l-0.34,3.7l3.61,0.82L8.6,22.5l3.4-1.47l3.4,1.46l1.89-3.19l3.61-0.82l-0.34-3.69L23,11.99z M19.05,13.47l-0.56,0.65l0.08,0.85 l0.18,1.95l-1.9,0.43l-0.84,0.19l-0.44,0.74l-0.99,1.68l-1.78-0.77L12,18.85l-0.79,0.34l-1.78,0.77l-0.99-1.67l-0.44-0.74 l-0.84-0.19l-1.9-0.43l0.18-1.96l0.08-0.85l-0.56-0.65l-1.29-1.47l1.29-1.48l0.56-0.65L5.43,9.01L5.25,7.07l1.9-0.43l0.84-0.19 l0.44-0.74l0.99-1.68l1.78,0.77L12,5.14l0.79-0.34l1.78-0.77l0.99,1.68l0.44,0.74l0.84,0.19l1.9,0.43l-0.18,1.95l-0.08,0.85 l0.56,0.65l1.29,1.47L19.05,13.47z" />
+                                                                        <polygon
+                                                                            points="10.09,13.75 7.77,11.42 6.29,12.91 10.09,16.72 17.43,9.36 15.95,7.87" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg></i></span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 d-flex justify-content-end">
+                                                <img src="./Images/dots3.png" alt=""
+                                                    class="rounded-circle justify-content-end" height="27" width="27">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="bg-image hover-overlay ripple shadow-1-strong">
+                                    <p class=" mx-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus,
+                                        enim iste. .</p>
+                                    <img src="Images/3284d5cf-6765-45d4-874f-6c4bc047cdaf.jpeg" alt="" class="w-100">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row ">
+                                            <div class="col-md-8">
+                                                <i class="ml-0"><img src="./Images/like.png " height="27"
+                                                        width="27" alt=""></i>
+                                                <i class="mx-4"><img src="./Images/comment.png" height="27"
+                                                        width="27" alt=""></i>
+                                                <i class=""><img src="./Images/saved.png" height="27" width="27"
+                                                        alt=""></i>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <i class="d-flex justify-content-end"><img
+                                                        src="./Images/save_post.png" height="27" width="27"
+                                                        alt=""></i>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-1">
+                                            <small>60 Likes</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="newsfeed my-5">
+                        <div class="post">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row d-flex ">
+                                            <div class="col-md-8">
+
+                                                <div class="d-flex story text-dark justify-content-start">
+                                                    <img src="https://github.com/shabidkhan.png" alt=""
+                                                        class="rounded-circle" height="27" width="27">
+                                                    <span class="mx-2">Shabid <i><svg xmlns="http://www.w3.org/2000/svg"
+                                                                enable-background="new 0 0 24 24" height="18px"
+                                                                viewBox="0 0 24 24" width="18px" fill="#000000">
+                                                                <g>
+                                                                    <rect fill="none" height="24" width="24" />
+                                                                </g>
+                                                                <g>
+                                                                    <g>
+                                                                        <path
+                                                                            d="M18.49,9.88l0.08-0.85l0.18-1.95l-1.9-0.43l-0.84-0.19l-0.44-0.74l-0.99-1.68L12.79,4.8L12,5.14L11.21,4.8 L9.42,4.03L8.43,5.71L7.99,6.45L7.15,6.64l-1.9,0.43l0.18,1.94l0.08,0.85l-0.56,0.65l-1.29,1.48l1.29,1.47l0.56,0.65l-0.08,0.85 l-0.18,1.96l1.9,0.43l0.84,0.19l0.44,0.74l0.99,1.67l1.78-0.77L12,18.85l0.79,0.34l1.78,0.77l0.99-1.68l0.44-0.74l0.84-0.19 l1.9-0.43l-0.18-1.95l-0.08-0.85l0.56-0.65l1.29-1.47l-1.29-1.47L18.49,9.88z M10.09,16.72l-3.8-3.81l1.48-1.48l2.32,2.33 l5.85-5.87l1.48,1.48L10.09,16.72z"
+                                                                            opacity=".3" />
+                                                                        <path
+                                                                            d="M23,11.99l-2.44-2.79l0.34-3.69l-3.61-0.82L15.4,1.5L12,2.96L8.6,1.5L6.71,4.69L3.1,5.5L3.44,9.2L1,11.99l2.44,2.79 l-0.34,3.7l3.61,0.82L8.6,22.5l3.4-1.47l3.4,1.46l1.89-3.19l3.61-0.82l-0.34-3.69L23,11.99z M19.05,13.47l-0.56,0.65l0.08,0.85 l0.18,1.95l-1.9,0.43l-0.84,0.19l-0.44,0.74l-0.99,1.68l-1.78-0.77L12,18.85l-0.79,0.34l-1.78,0.77l-0.99-1.67l-0.44-0.74 l-0.84-0.19l-1.9-0.43l0.18-1.96l0.08-0.85l-0.56-0.65l-1.29-1.47l1.29-1.48l0.56-0.65L5.43,9.01L5.25,7.07l1.9-0.43l0.84-0.19 l0.44-0.74l0.99-1.68l1.78,0.77L12,5.14l0.79-0.34l1.78-0.77l0.99,1.68l0.44,0.74l0.84,0.19l1.9,0.43l-0.18,1.95l-0.08,0.85 l0.56,0.65l1.29,1.47L19.05,13.47z" />
+                                                                        <polygon
+                                                                            points="10.09,13.75 7.77,11.42 6.29,12.91 10.09,16.72 17.43,9.36 15.95,7.87" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg></i></span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 d-flex justify-content-end">
+                                                <img src="./Images/dots3.png" alt=""
+                                                    class="rounded-circle justify-content-end" height="27" width="27">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="bg-image hover-overlay ripple shadow-1-strong">
+                                    <p class=" mx-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus,
+                                        enim iste. .</p>
+                                    <img src="Images/4f59928d-f218-4de7-ade5-b4da8d756b30.jpeg" alt="" class="w-100">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row ">
+                                            <div class="col-md-8">
+                                                <i class="ml-0"><img src="./Images/like.png " height="27"
+                                                        width="27" alt=""></i>
+                                                <i class="mx-4"><img src="./Images/comment.png" height="27"
+                                                        width="27" alt=""></i>
+                                                <i class=""><img src="./Images/saved.png" height="27" width="27"
+                                                        alt=""></i>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <i class="d-flex justify-content-end"><img
+                                                        src="./Images/save_post.png" height="27" width="27"
+                                                        alt=""></i>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-1">
+                                            <small>600 Likes</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="newsfeed my-5">
+                        <div class="post">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row d-flex ">
+                                            <div class="col-md-8">
+
+                                                <div class="d-flex story text-dark justify-content-start">
+                                                    <img src="https://github.com/Riyaz19.png" alt=""
+                                                        class="rounded-circle" height="27" width="27">
+                                                    <span class="mx-2">Riyaz<i><svg xmlns="http://www.w3.org/2000/svg"
+                                                                enable-background="new 0 0 24 24" height="18px"
+                                                                viewBox="0 0 24 24" width="18px" fill="#000000">
+                                                                <g>
+                                                                    <rect fill="none" height="24" width="24" />
+                                                                </g>
+                                                                <g>
+                                                                    <g>
+                                                                        <path
+                                                                            d="M18.49,9.88l0.08-0.85l0.18-1.95l-1.9-0.43l-0.84-0.19l-0.44-0.74l-0.99-1.68L12.79,4.8L12,5.14L11.21,4.8 L9.42,4.03L8.43,5.71L7.99,6.45L7.15,6.64l-1.9,0.43l0.18,1.94l0.08,0.85l-0.56,0.65l-1.29,1.48l1.29,1.47l0.56,0.65l-0.08,0.85 l-0.18,1.96l1.9,0.43l0.84,0.19l0.44,0.74l0.99,1.67l1.78-0.77L12,18.85l0.79,0.34l1.78,0.77l0.99-1.68l0.44-0.74l0.84-0.19 l1.9-0.43l-0.18-1.95l-0.08-0.85l0.56-0.65l1.29-1.47l-1.29-1.47L18.49,9.88z M10.09,16.72l-3.8-3.81l1.48-1.48l2.32,2.33 l5.85-5.87l1.48,1.48L10.09,16.72z"
+                                                                            opacity=".3" />
+                                                                        <path
+                                                                            d="M23,11.99l-2.44-2.79l0.34-3.69l-3.61-0.82L15.4,1.5L12,2.96L8.6,1.5L6.71,4.69L3.1,5.5L3.44,9.2L1,11.99l2.44,2.79 l-0.34,3.7l3.61,0.82L8.6,22.5l3.4-1.47l3.4,1.46l1.89-3.19l3.61-0.82l-0.34-3.69L23,11.99z M19.05,13.47l-0.56,0.65l0.08,0.85 l0.18,1.95l-1.9,0.43l-0.84,0.19l-0.44,0.74l-0.99,1.68l-1.78-0.77L12,18.85l-0.79,0.34l-1.78,0.77l-0.99-1.67l-0.44-0.74 l-0.84-0.19l-1.9-0.43l0.18-1.96l0.08-0.85l-0.56-0.65l-1.29-1.47l1.29-1.48l0.56-0.65L5.43,9.01L5.25,7.07l1.9-0.43l0.84-0.19 l0.44-0.74l0.99-1.68l1.78,0.77L12,5.14l0.79-0.34l1.78-0.77l0.99,1.68l0.44,0.74l0.84,0.19l1.9,0.43l-0.18,1.95l-0.08,0.85 l0.56,0.65l1.29,1.47L19.05,13.47z" />
+                                                                        <polygon
+                                                                            points="10.09,13.75 7.77,11.42 6.29,12.91 10.09,16.72 17.43,9.36 15.95,7.87" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg></i></span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-4 d-flex justify-content-end">
+                                                <img src="./Images/dots3.png" alt=""
+                                                    class="rounded-circle justify-content-end" height="27" width="27">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="bg-image hover-overlay ripple shadow-1-strong">
+                                    <p class=" mx-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus,
+                                        enim iste. .</p>
+                                    <img src="Images/Screenshot_2021_1229_105021.jpg" alt="" class="w-100">
+                                    <a href="#"></a>
+                                </div>
+                                <div class="card-body">
+                                    <div class="container">
+                                        <div class="row ">
+                                            <div class="col-md-8">
+                                                <i class="ml-0"><img src="./Images/like.png " height="27"
+                                                        width="27" alt=""></i>
+                                                <i class="mx-4"><img src="./Images/comment.png" height="27"
+                                                        width="27" alt=""></i>
+                                                <i class=""><img src="./Images/saved.png" height="27" width="27"
+                                                        alt=""></i>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <i class="d-flex justify-content-end"><img
+                                                        src="./Images/save_post.png" height="27" width="27"
+                                                        alt=""></i>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-1">
+                                            <small>60 Likes</small>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </section>
+
+                   
+
+                </div>
+                <div class="col-md-3  ">
+                    <div class="Sugesstion_side_bar_container mx-4">
+                        <div class="Sugesstion_side_bar_content">
+                            <div class="Sugesstion_header">
+                                <h2 class="Sugesstion_head">Sugesstion</h2>
+                            </div>
+                            <div class="Sugesstion_background_photo_bg">
+                                <div class="Sugesstion_background_photo_half_colour">
+                                    <div class="Sugesstion_User_Frist_name">
+                                        <Link href="/"><a class="Sugesstion_user_name">Satyam-shukla</a></Link>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                            height="24px" viewBox="0 0 24 24" width="24px" fill="#fff">
+                                            <g>
+                                                <rect fill="none" height="24" width="24" />
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M18.49,9.88l0.08-0.85l0.18-1.95l-1.9-0.43l-0.84-0.19l-0.44-0.74l-0.99-1.68L12.79,4.8L12,5.14L11.21,4.8 L9.42,4.03L8.43,5.71L7.99,6.45L7.15,6.64l-1.9,0.43l0.18,1.94l0.08,0.85l-0.56,0.65l-1.29,1.48l1.29,1.47l0.56,0.65l-0.08,0.85 l-0.18,1.96l1.9,0.43l0.84,0.19l0.44,0.74l0.99,1.67l1.78-0.77L12,18.85l0.79,0.34l1.78,0.77l0.99-1.68l0.44-0.74l0.84-0.19 l1.9-0.43l-0.18-1.95l-0.08-0.85l0.56-0.65l1.29-1.47l-1.29-1.47L18.49,9.88z M10.09,16.72l-3.8-3.81l1.48-1.48l2.32,2.33 l5.85-5.87l1.48,1.48L10.09,16.72z"
+                                                        opacity=".3" />
+                                                    <path
+                                                        d="M23,11.99l-2.44-2.79l0.34-3.69l-3.61-0.82L15.4,1.5L12,2.96L8.6,1.5L6.71,4.69L3.1,5.5L3.44,9.2L1,11.99l2.44,2.79 l-0.34,3.7l3.61,0.82L8.6,22.5l3.4-1.47l3.4,1.46l1.89-3.19l3.61-0.82l-0.34-3.69L23,11.99z M19.05,13.47l-0.56,0.65l0.08,0.85 l0.18,1.95l-1.9,0.43l-0.84,0.19l-0.44,0.74l-0.99,1.68l-1.78-0.77L12,18.85l-0.79,0.34l-1.78,0.77l-0.99-1.67l-0.44-0.74 l-0.84-0.19l-1.9-0.43l0.18-1.96l0.08-0.85l-0.56-0.65l-1.29-1.47l1.29-1.48l0.56-0.65L5.43,9.01L5.27,7.07l1.9-0.43l0.84-0.19 l0.44-0.74l0.99-1.68l1.78,0.77L12,5.14l0.79-0.34l1.78-0.77l0.99,1.68l0.44,0.74l0.84,0.19l1.9,0.43l-0.18,1.95l-0.08,0.85 l0.56,0.65l1.29,1.47L19.05,13.47z" />
+                                                    <polygon
+                                                        points="10.09,13.75 7.77,11.42 6.29,12.91 10.09,16.72 17.43,9.36 15.95,7.87" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <Link href="#">
+                                    <a class="Sugesstion_id_name">@satyam-shukla</a>
+                                    </Link>
+                                </div>
+                                <div class="Sugesstion_profile_pic">
+
+                                </div>
+                                <span class="Sugesstion_free_txt_sidebar">Free</span>
+                                <button class="Sugesstion_label_dots">
+                                    <svg id="satyam" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                        viewBox="0 0 24 24" width="24px" fill="#ffffff">
+                                        <path d="M0 0h24v24H0V0z" fill="none" />
+                                        <path
+                                            d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <div class="Sugesstion_background_photo_bg">
+                                <div class="Sugesstion_background_photo_half_colour">
+                                    <div class="Sugesstion_User_Frist_name">
+                                        <Link href="/"><a class="Sugesstion_user_name">Satyam-shukla</a></Link>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                            height="24px" viewBox="0 0 24 24" width="24px" fill="#fff">
+                                            <g>
+                                                <rect fill="none" height="24" width="24" />
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M18.49,9.88l0.08-0.85l0.18-1.95l-1.9-0.43l-0.84-0.19l-0.44-0.74l-0.99-1.68L12.79,4.8L12,5.14L11.21,4.8 L9.42,4.03L8.43,5.71L7.99,6.45L7.15,6.64l-1.9,0.43l0.18,1.94l0.08,0.85l-0.56,0.65l-1.29,1.48l1.29,1.47l0.56,0.65l-0.08,0.85 l-0.18,1.96l1.9,0.43l0.84,0.19l0.44,0.74l0.99,1.67l1.78-0.77L12,18.85l0.79,0.34l1.78,0.77l0.99-1.68l0.44-0.74l0.84-0.19 l1.9-0.43l-0.18-1.95l-0.08-0.85l0.56-0.65l1.29-1.47l-1.29-1.47L18.49,9.88z M10.09,16.72l-3.8-3.81l1.48-1.48l2.32,2.33 l5.85-5.87l1.48,1.48L10.09,16.72z"
+                                                        opacity=".3" />
+                                                    <path
+                                                        d="M23,11.99l-2.44-2.79l0.34-3.69l-3.61-0.82L15.4,1.5L12,2.96L8.6,1.5L6.71,4.69L3.1,5.5L3.44,9.2L1,11.99l2.44,2.79 l-0.34,3.7l3.61,0.82L8.6,22.5l3.4-1.47l3.4,1.46l1.89-3.19l3.61-0.82l-0.34-3.69L23,11.99z M19.05,13.47l-0.56,0.65l0.08,0.85 l0.18,1.95l-1.9,0.43l-0.84,0.19l-0.44,0.74l-0.99,1.68l-1.78-0.77L12,18.85l-0.79,0.34l-1.78,0.77l-0.99-1.67l-0.44-0.74 l-0.84-0.19l-1.9-0.43l0.18-1.96l0.08-0.85l-0.56-0.65l-1.29-1.47l1.29-1.48l0.56-0.65L5.43,9.01L5.27,7.07l1.9-0.43l0.84-0.19 l0.44-0.74l0.99-1.68l1.78,0.77L12,5.14l0.79-0.34l1.78-0.77l0.99,1.68l0.44,0.74l0.84,0.19l1.9,0.43l-0.18,1.95l-0.08,0.85 l0.56,0.65l1.29,1.47L19.05,13.47z" />
+                                                    <polygon
+                                                        points="10.09,13.75 7.77,11.42 6.29,12.91 10.09,16.72 17.43,9.36 15.95,7.87" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <Link href="#">
+                                    <a class="Sugesstion_id_name">@satyam-shukla</a>
+                                    </Link>
+                                </div>
+                                <div class="Sugesstion_profile_pic">
+
+                                </div>
+                                <span class="Sugesstion_free_txt_sidebar">Free</span>
+                                <button class="Sugesstion_label_dots">
+                                    <svg id="satyam" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                        viewBox="0 0 24 24" width="24px" fill="#ffffff">
+                                        <path d="M0 0h24v24H0V0z" fill="none" />
+                                        <path
+                                            d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="Sugesstion_background_photo_bg">
+                                <div class="Sugesstion_background_photo_half_colour">
+                                    <div class="Sugesstion_User_Frist_name">
+                                        <Link href="/"><a class="Sugesstion_user_name">Satyam-shukla</a></Link>
+                                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"
+                                            height="24px" viewBox="0 0 24 24" width="24px" fill="#fff">
+                                            <g>
+                                                <rect fill="none" height="24" width="24" />
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="M18.49,9.88l0.08-0.85l0.18-1.95l-1.9-0.43l-0.84-0.19l-0.44-0.74l-0.99-1.68L12.79,4.8L12,5.14L11.21,4.8 L9.42,4.03L8.43,5.71L7.99,6.45L7.15,6.64l-1.9,0.43l0.18,1.94l0.08,0.85l-0.56,0.65l-1.29,1.48l1.29,1.47l0.56,0.65l-0.08,0.85 l-0.18,1.96l1.9,0.43l0.84,0.19l0.44,0.74l0.99,1.67l1.78-0.77L12,18.85l0.79,0.34l1.78,0.77l0.99-1.68l0.44-0.74l0.84-0.19 l1.9-0.43l-0.18-1.95l-0.08-0.85l0.56-0.65l1.29-1.47l-1.29-1.47L18.49,9.88z M10.09,16.72l-3.8-3.81l1.48-1.48l2.32,2.33 l5.85-5.87l1.48,1.48L10.09,16.72z"
+                                                        opacity=".3" />
+                                                    <path
+                                                        d="M23,11.99l-2.44-2.79l0.34-3.69l-3.61-0.82L15.4,1.5L12,2.96L8.6,1.5L6.71,4.69L3.1,5.5L3.44,9.2L1,11.99l2.44,2.79 l-0.34,3.7l3.61,0.82L8.6,22.5l3.4-1.47l3.4,1.46l1.89-3.19l3.61-0.82l-0.34-3.69L23,11.99z M19.05,13.47l-0.56,0.65l0.08,0.85 l0.18,1.95l-1.9,0.43l-0.84,0.19l-0.44,0.74l-0.99,1.68l-1.78-0.77L12,18.85l-0.79,0.34l-1.78,0.77l-0.99-1.67l-0.44-0.74 l-0.84-0.19l-1.9-0.43l0.18-1.96l0.08-0.85l-0.56-0.65l-1.29-1.47l1.29-1.48l0.56-0.65L5.43,9.01L5.27,7.07l1.9-0.43l0.84-0.19 l0.44-0.74l0.99-1.68l1.78,0.77L12,5.14l0.79-0.34l1.78-0.77l0.99,1.68l0.44,0.74l0.84,0.19l1.9,0.43l-0.18,1.95l-0.08,0.85 l0.56,0.65l1.29,1.47L19.05,13.47z" />
+                                                    <polygon
+                                                        points="10.09,13.75 7.77,11.42 6.29,12.91 10.09,16.72 17.43,9.36 15.95,7.87" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <Link href="#">
+                                    <a class="Sugesstion_id_name">@satyam-shukla</a>
+                                    </Link>
+                                </div>
+                                <div class="Sugesstion_profile_pic">
+
+                                </div>
+                                <span class="Sugesstion_free_txt_sidebar">Free</span>
+                                <button class="Sugesstion_label_dots">
+                                    <svg id="satyam" xmlns="http://www.w3.org/2000/svg" height="24px"
+                                        viewBox="0 0 24 24" width="24px" fill="#ffffff">
+                                        <path d="M0 0h24v24H0V0z" fill="none" />
+                                        <path
+                                            d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
